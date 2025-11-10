@@ -1,67 +1,142 @@
-<!-- Banner -->
+<!-- HERO -->
 <p align="center">
-  <img src="assets/header.png" alt="Bajrang Solge — Android Automotive & AOSP Engineer" width="100%">
+  <img src="assets/header.svg" alt="Bajrang Solge — Android Automotive & AOSP Engineer" width="100%"/>
 </p>
 
-<h1 align="center">Hi, I’m Bajrang 👋</h1>
+<h1 align="center">Android Automotive • AOSP • HAL • JNI • Binder</h1>
 <p align="center">
-Android Automotive (AAOS) & AOSP System Engineer — HAL • JNI • Binder • System Services • CAN/Vehicle data
+  Building IVI & Cluster systems end-to-end — from HALs & services to real-time vehicle data on screen.
 </p>
 
-<div align="center">
-  <a href="mailto:bajrangsolge07@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-bajrangsolge07%40gmail.com-informational?logo=gmail"></a>
-  <a href="https://www.linkedin.com/in/bajrang-solge-811b2a212/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Bajrang%20Solge-blue?logo=linkedin"></a>
-  <a href="https://github.com/bajrangsolge"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-bajrangsolge-black?logo=github"></a>
-  <a href="docs/Bajrang_Solge_AOSP_Resume.pdf"><img alt="Resume" src="https://img.shields.io/badge/Resume-AOSP/AAOS-success?logo=adobeacrobatreader"></a>
-  <img alt="Location" src="https://img.shields.io/badge/Pune%2C%20India-🛠️-brightgreen">
-</div>
+<p align="center">
+  <a href="mailto:bajrangsolge07@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-bajrangsolge07%40gmail.com-222?style=for-the-badge&logo=gmail"></a>
+  <a href="https://www.linkedin.com/in/bajrang-solge-811b2a212/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Bajrang%20Solge-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="docs/Bajrang_Solge_AOSP_Resume.pdf"><img alt="Resume" src="https://img.shields.io/badge/Resume-AAOS%20%2F%20AOSP-0e7490?style=for-the-badge&logo=adobeacrobatreader"></a>
+  <img alt="Location" src="https://img.shields.io/badge/Pune%2C%20India-16a34a?style=for-the-badge">
+</p>
 
 ---
 
-## 🚘 What I do
-- Build **AAOS IVI & digital clusters** on SBCs (Raspberry Pi) and SOMs  
-- Write **HALs (C++), JNI bridges, Binder IPC** and tweak **init.rc / services**  
-- Integrate **CAN/VCU** → expose **CarPropertyManager** to apps with low latency  
-- Debug with **adb, logcat, dmesg, fastboot**; optimize boot and runtime
-
-## 🧠 Core stack
-`AOSP/AAOS` · `HAL (C++)` · `JNI/NDK` · `Binder IPC` · `System Services` · `Linux`  
-`Android SDK` · `Java/Kotlin` · `Python/Shell` · `Git/Jenkins` · `SQLite`  
-`CAN bus` · `Raspberry Pi` · `Device trees` · `BoardConfig.mk`
-
-## 🏆 Featured work (pinned)
-- **AAOS IVI on Raspberry Pi** — custom image + HALs + demo video  
-- **Cluster UI + Vehicle Data** — CarPropertyManager, real-time updates  
-- **JNI + HAL Playground** — minimal, interview-ready examples  
-- **Smart Fuel Pump Controller** — UI + firmware + telemetry (sanitized)  
-- **Confluence RAG with FGAC** — answers only if the user has access
-
-> Each repo includes a *Case Study* section: goal → role → challenges → result (with metrics or video).
-
-## 📈 Highlights
-- Built end-to-end **app → HAL → CAN/VCU** pipelines on embedded targets  
-- Extended **IME/Input** for automotive use cases  
-- Reduced bugs & latency via focused **logcat/dmesg** profiling
-
-## 🔬 Diagrams & notes
-I document every repo with **architecture diagrams**, **DFDs**, and short **debug guides** (boot flow, services, logs).  
-If you like deep dives, check `/docs` folders in the pinned projects.
-
-## 🤝 Let’s collaborate
-Got an AAOS/AOSP idea, port, or performance issue?  
-**Email:** bajrangsolge07@gmail.com · **LinkedIn:** /in/bajrang-solge-811b2a212/
+## 🔧 Core Expertise
+`AAOS/AOSP` • `HAL (C++)` • `JNI/NDK` • `Binder IPC` • `System Services` • `CarPropertyManager`  
+`Java/Kotlin` • `Linux / init.rc` • `Raspberry Pi` • `CAN bus` • `Diagnostics` • `Jenkins/GitHub Actions`
 
 ---
 
-### Optional widgets (clean look matters)
-<!-- Uncomment what you prefer -->
-<!--
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bajrangsolge&show_icons=true" height="150">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bajrangsolge&layout=compact" height="150">
+## 🚀 Signature Projects (curated)
+<table>
+<tr>
+<td width="50%">
+  
+### AAOS IVI on Raspberry Pi  
+Minimal board bring-up + custom HALs + fast demo UX  
+<p>
+  <a href="https://github.com/bajrangsolge/aaos-ivi-rpi"><b>Code</b></a> • 
+  <a href="https://github.com/bajrangsolge/aaos-ivi-rpi#demo"><b>Demo (video)</b></a> • 
+  <a href="https://github.com/bajrangsolge/aaos-ivi-rpi/tree/main/docs"><b>Docs</b></a>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/AAOS-13/14-111?style=flat">&nbsp;
+  <img src="https://img.shields.io/badge/HAL-JNI-111?style=flat">&nbsp;
+  <img src="https://img.shields.io/badge/CAN-telemetry-111?style=flat">
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bajrangsolge&margin-w=8&column=6">
+**Case Study**  
+- Goal: get end-to-end **vehicle data → HAL → app UI** in < 120 ms  
+- Role: system + app + HAL  
+- Result: stable 30/60 fps UI; deterministic property updates
+
+</td>
+<td width="50%">
+
+### Cluster UI + CarProperty Realtime  
+Automotive cluster UI hooked to VHAL with graceful fallbacks  
+<p>
+  <a href="https://github.com/bajrangsolge/aaos-cluster-demo"><b>Code</b></a> • 
+  <a href="https://github.com/bajrangsolge/aaos-cluster-demo#video"><b>Demo (video)</b></a>
 </p>
--->
+<p>
+  <img src="https://img.shields.io/badge/CarPropertyManager-live-111?style=flat">&nbsp;
+  <img src="https://img.shields.io/badge/Jetpack-Compose-111?style=flat">&nbsp;
+  <img src="https://img.shields.io/badge/NDK-bridge-111?style=flat">
+</p>
+
+**Case Study**  
+- Goal: clean UI **without dropped frames** under burst updates  
+- Role: UI perf + data model  
+- Result: consistent 60 fps; test harness for property storms
+
+</td>
+</tr>
+<tr>
+<td>
+
+### JNI + HAL Playground (Interview-ready)
+Tiny, commented labs for **Java ↔ C++ ↔ Binder**  
+<p>
+  <a href="https://github.com/bajrangsolge/jni-hal-playground"><b>Code</b></a> • 
+  <a href="https://github.com/bajrangsolge/jni-hal-playground/tree/main/docs"><b>Docs</b></a>
+</p>
+
+**What’s inside:**  
+- 60-line JNI bridge  
+- Service registration + client call  
+- Logging patterns: `logcat`, `dmesg`, ServiceManager
+
+</td>
+<td>
+
+### Smart Fuel Pump Controller (R&D)
+CAN/UDS telemetry → slope logic → controlled pump duty  
+<p>
+  <a href="https://github.com/bajrangsolge/smart-fuel-pump-controller"><b>Code</b></a> • 
+  <a href="https://github.com/bajrangsolge/smart-fuel-pump-controller#ui"><b>UI</b></a>
+</p>
+
+**Case Study**  
+- Goal: safe control policies with transparent UI  
+- Role: firmware + Android client  
+- Result: deterministic state machine + diagnostics panel
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧭 How I work
+- **DDF (Design–Drive–Fix):** design diagrams → drive a minimal demo → fix using logs/metrics  
+- **Obsessive Docs:** every repo ships with a single-screen README (**diagram + run + demo**)  
+- **Perf mind-set:** guardrails for latency, jank, and binder hops
+
+<details>
+<summary><b>Deep dives (open)</b></summary>
+
+### 1) Boot & Services
+- `init.rc` units, SELinux contexts, service crash loops  
+- Service discovery & binder stability under load
+
+### 2) Vehicle Data
+- Property lifecycles, update rates, priority channels  
+- Backpressure handling for bursty signals
+
+### 3) JNI + HAL Craft
+- Minimal, auditable bridges; predictable ownership  
+- Log points that actually help during field issues
+</details>
+
+---
+
+## 📊 Neat, minimal metrics
+<p align="center">
+  <img height="155" src="https://github-readme-stats.vercel.app/api?username=bajrangsolge&show_icons=true&hide_border=true&theme=tokyonight">
+  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bajrangsolge&layout=compact&hide_border=true&theme=tokyonight">
+</p>
+
+---
+
+## 🤝 Let’s build
+If you’re shipping AAOS features, porting to new boards, or need HAL/JNI help, ping me:  
+**bajrangsolge07@gmail.com** · Pune, India
+
+---
