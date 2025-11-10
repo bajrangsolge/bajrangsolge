@@ -19,7 +19,7 @@
 
 ## 🔧 Core Expertise
 `AAOS/AOSP` • `HAL (C++)` • `JNI/NDK` • `Binder IPC` • `System Services` • `CarPropertyManager`  
-`Java/Kotlin` • `Linux / init.rc` • `Raspberry Pi` • `CAN bus` • `Diagnostics` • `Jenkins/GitHub Actions`
+`Java/Kotlin` • `Linux / init.rc` • `Raspberry Pi` • `CAN bus` • `Diagnostics` • `React Native` • `Flutter`
 
 ---
 
@@ -27,13 +27,13 @@
 <table>
 <tr>
 <td width="50%">
-  
+
 ### AAOS IVI on Raspberry Pi  
 Minimal board bring-up + custom HALs + fast demo UX  
 <p>
-  <a href="https://github.com/bajrangsolge/aaos-ivi-rpi"><b>Code</b></a> • 
-  <a href="https://github.com/bajrangsolge/aaos-ivi-rpi#demo"><b>Demo (video)</b></a> • 
-  <a href="https://github.com/bajrangsolge/aaos-ivi-rpi/tree/main/docs"><b>Docs</b></a>
+  <a href="#"><b>Code</b></a> • 
+  <a href="#"><b>Demo (video)</b></a> • 
+  <a href="#"><b>Docs</b></a>
 </p>
 <p>
   <img src="https://img.shields.io/badge/AAOS-13/14-111?style=flat">&nbsp;
@@ -42,7 +42,7 @@ Minimal board bring-up + custom HALs + fast demo UX
 </p>
 
 **Case Study**  
-- Goal: get end-to-end **vehicle data → HAL → app UI** in < 120 ms  
+- Goal: end-to-end **vehicle data → HAL → app UI** in < 120 ms  
 - Role: system + app + HAL  
 - Result: stable 30/60 fps UI; deterministic property updates
 
@@ -52,8 +52,8 @@ Minimal board bring-up + custom HALs + fast demo UX
 ### Cluster UI + CarProperty Realtime  
 Automotive cluster UI hooked to VHAL with graceful fallbacks  
 <p>
-  <a href="https://github.com/bajrangsolge/aaos-cluster-demo"><b>Code</b></a> • 
-  <a href="https://github.com/bajrangsolge/aaos-cluster-demo#video"><b>Demo (video)</b></a>
+  <a href="#"><b>Code</b></a> • 
+  <a href="#"><b>Demo (video)</b></a>
 </p>
 <p>
   <img src="https://img.shields.io/badge/CarPropertyManager-live-111?style=flat">&nbsp;
@@ -68,35 +68,50 @@ Automotive cluster UI hooked to VHAL with graceful fallbacks
 
 </td>
 </tr>
+</table>
+
+---
+
+## 📱 Cross-Platform (Flutter) & Android Native
+
+<table>
+<tr>
+<td width="50%">
+
+### Noble Nurture – Skincare (Flutter)
+**Flutter** e-commerce app with coupons, Razorpay, push, and offline cart.  
+**Stack:** Flutter · Riverpod · GoRouter · Dio · Hive/Isar · Razorpay · FCM  
+**Highlights:** optimistic cart, image caching, crash-free >99.8%.
+<p><i>Repo:</i> <code>noble-nurture-flutter</code></p>
+
+</td>
+<td width="50%">
+
+### Spendwise – Expense Tracker (Flutter)
+Reminders, categories, charts, encrypted local DB.  
+**Stack:** Flutter · Drift/Isar · Riverpod · fl_chart · Local Notifications  
+**Highlights:** recurring rules, CSV import/export, Drive backup.
+<p><i>Repo:</i> <code>spendwise-flutter</code></p>
+
+</td>
+</tr>
 <tr>
 <td>
 
-### JNI + HAL Playground (Interview-ready)
-Tiny, commented labs for **Java ↔ C++ ↔ Binder**  
-<p>
-  <a href="https://github.com/bajrangsolge/jni-hal-playground"><b>Code</b></a> • 
-  <a href="https://github.com/bajrangsolge/jni-hal-playground/tree/main/docs"><b>Docs</b></a>
-</p>
-
-**What’s inside:**  
-- 60-line JNI bridge  
-- Service registration + client call  
-- Logging patterns: `logcat`, `dmesg`, ServiceManager
+### BLE Caller Display to RTOS (Flutter)
+Reads phone state and sends caller data to RTOS over **BLE (GATT)**.  
+**Stack:** Flutter · flutter_blue_plus · permission_handler  
+**Highlights:** reconnection strategy, background handling.
+<p><i>Repo:</i> <code>flutter-ble-caller-display</code></p>
 
 </td>
 <td>
 
-### Smart Fuel Pump Controller (R&D)
-CAN/UDS telemetry → slope logic → controlled pump duty  
-<p>
-  <a href="https://github.com/bajrangsolge/smart-fuel-pump-controller"><b>Code</b></a> • 
-  <a href="https://github.com/bajrangsolge/smart-fuel-pump-controller#ui"><b>UI</b></a>
-</p>
-
-**Case Study**  
-- Goal: safe control policies with transparent UI  
-- Role: firmware + Android client  
-- Result: deterministic state machine + diagnostics panel
+### USB Serial Scope (Android Native)
+**Kotlin** app: high-rate USB (CDC/FTDI) stream → 60fps plot + CSV export.  
+**Stack:** Kotlin · UsbManager · Coroutines · MPAndroidChart  
+**Highlights:** backpressure handling, hot-plug resilient.
+<p><i>Repo:</i> <code>android-usb-serial-scope</code></p>
 
 </td>
 </tr>
@@ -104,30 +119,7 @@ CAN/UDS telemetry → slope logic → controlled pump duty
 
 ---
 
-## 🧭 How I work
-- **DDF (Design–Drive–Fix):** design diagrams → drive a minimal demo → fix using logs/metrics  
-- **Obsessive Docs:** every repo ships with a single-screen README (**diagram + run + demo**)  
-- **Perf mind-set:** guardrails for latency, jank, and binder hops
-
-<details>
-<summary><b>Deep dives (open)</b></summary>
-
-### 1) Boot & Services
-- `init.rc` units, SELinux contexts, service crash loops  
-- Service discovery & binder stability under load
-
-### 2) Vehicle Data
-- Property lifecycles, update rates, priority channels  
-- Backpressure handling for bursty signals
-
-### 3) JNI + HAL Craft
-- Minimal, auditable bridges; predictable ownership  
-- Log points that actually help during field issues
-</details>
-
----
-
-## 📊 Neat, minimal metrics
+## 📊 Minimal Metrics
 <p align="center">
   <img height="155" src="https://github-readme-stats.vercel.app/api?username=bajrangsolge&show_icons=true&hide_border=true&theme=tokyonight">
   <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bajrangsolge&layout=compact&hide_border=true&theme=tokyonight">
@@ -136,7 +128,5 @@ CAN/UDS telemetry → slope logic → controlled pump duty
 ---
 
 ## 🤝 Let’s build
-If you’re shipping AAOS features, porting to new boards, or need HAL/JNI help, ping me:  
+If you’re shipping AAOS features, porting to new boards, or need HAL/JNI/Flutter help, ping me:  
 **bajrangsolge07@gmail.com** · Pune, India
-
----
