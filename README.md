@@ -54,7 +54,9 @@
 
 ---
 
-## 🔧 Architecture Snapshot (AAOS)
+## 🧩 Architecture Snapshot (AAOS)
+
+```mermaid
 flowchart LR
   %% Vehicle side
   subgraph VEH["Vehicle"]
@@ -81,3 +83,4 @@ flowchart LR
   CPM --> APP
   APP --> UI
   APP --> UX
+```
