@@ -1,69 +1,71 @@
-<!--
-  Premium Profile README for: bajrangsolge
-  Notes:
-  - All images are from public badge/card services; no local assets needed.
-  - Mermaid diagrams render natively on GitHub.
-  - Replace any links (LinkedIn/Portfolio) if you want later.
--->
+<!-- Hero -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=26&pause=1200&center=true&vCenter=true&width=900&lines=Android+Automotive+OS+(AAOS)+%7C+AOSP%2C+HAL%2C+JNI%2C+CarService;React+Native+%26+Flutter+%7C+Mobile+%26+IVI;MERN%2FLaravel+%7C+RAG+on+Confluence+%7C+Cloud+%26+DevOps" />
+</p>
 
 <h1 align="center">Hi, I'm Bajrang Solge</h1>
+
 <p align="center">
-  <b>Android Automotive OS (AAOS) • HMI & Framework • React / React Native • Flutter • MERN / Laravel • GenAI & RAG</b>
-  <br/>
-  <a href="https://github.com/bajrangsolge?tab=followers"><img src="https://img.shields.io/github/followers/bajrangsolge?style=for-the-badge&label=Followers"></a>
-  <img src="https://komarev.com/ghpvc/?username=bajrangsolge&style=for-the-badge&label=Profile%20views" />
-  <a href="mailto:bs.bajrangsolge@gmail.com"><img src="https://img.shields.io/badge/Email-bs.bajrangsolge%40gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://github.com/bajrangsolge"><img src="https://img.shields.io/badge/GitHub-bajrangsolge-black?style=for-the-badge&logo=github"></a>
+  <a href="mailto:bajrangsolge98@gmail.com"><img src="https://img.shields.io/badge/Email-bajrangsolge98%40gmail.com-black?logo=gmail" /></a>
+  <a href="https://linkedin.com/in/bajrang-solge-811b2a212"><img src="https://img.shields.io/badge/LinkedIn-bajrang--solge-0A66C2?logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/bajrangsolge"><img src="https://img.shields.io/github/followers/bajrangsolge?label=Follow&style=social" /></a>
+  <img src="https://komarev.com/ghpvc/?username=bajrangsolge&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
 
----
-
-## 🔥 What I Do
-
-- **Android Automotive OS (AAOS):** CarService, Vehicle HAL, CarPropertyManager, power/UX restrictions, JNI/HAL glue, cluster/IVI apps (Kotlin/Java).
-- **Android & Cross-Platform:** React Native and Flutter apps; modern UI with Compose/Views and material motion.
-- **Full-Stack:** MERN & Laravel + MySQL/MongoDB; JWT/OAuth, admin dashboards, reporting, CI/CD.
-- **GenAI & RAG:** Document ingestion, chunking/embeddings, FGAC/ACL-aware retrieval, Prompt-flow style orchestration.
-
-> Currently: building an **IVI/cluster** demo (AAOS), a **recruitment/ATS** suite with dashboards, and a **skincare e-commerce** (MERN + React Native).
+### ⚡ What I do
+- Build Android **Automotive IVI + Instrument Cluster** (AOSP / HAL / JNI / CarService / CarPropertyManager, UX safety).
+- Cross-platform apps with **React Native & Flutter**; web apps with **React.js / Laravel / MERN**.
+- GenAI/RAG systems (Confluence data, **FGAC**), CI/CD and cloud automation.
 
 ---
 
-## 🧰 Tech I use (selection)
-
+## 🛠 Tech Stack
 <p>
-  <img src="https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Android%20Automotive-2025-blue?style=for-the-badge&logo=androidauto&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Java-007396?logo=java&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/React-20232a?logo=react&logoColor=61DAFB&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/React%20Native-20232a?logo=react&logoColor=61DAFB&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Express-000?logo=express&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/MongoDB-4ea94b?logo=mongodb&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white&style=for-the-badge" />
+  <!-- skillicons.dev auto-dark icons -->
+  <img src="https://skillicons.dev/icons?i=java,kotlin,androidstudio,cpp,cmake,flutter,dart,react,redux,ts,js,html,css,tailwind,materialui,nodejs,express,laravel,python,git,github,linux,ubuntu,arch,aws,gcp,mongodb,mysql,postgres,redis,docker,nginx,postman&perline=10" />
 </p>
 
 ---
 
-## 🏗️ Architecture Snapshots
+## 🚀 Featured Work
+> hand-picked highlights you can pin on your profile
 
-### AAOS (Vehicle → HAL → CarService → App)
+- **Android Automotive – IVI & Cluster (Solo Build)**  
+  HAL → **CarService** → `CarPropertyManager` → Kotlin UI; **power states**, **UX restrictions**, CAN over USB (ESP32), live telemetry.  
+  <sub>Repos (add as you push):</sub> [`aaos-ivi`](https://github.com/bajrangsolge/aaos-ivi) • [`cluster-app`](https://github.com/bajrangsolge/cluster-app)
+
+- **ESP32 ↔ Android (JNI) – Two-way USB Serial + CAN**  
+  JNI bridge, command/telemetry streaming, fault codes, and safety hooks.  
+  Repo: [`esp32-android-jni-can`](https://github.com/bajrangsolge/esp32-android-jni-can)
+
+- **Recruiter/ATS (React + Redux + Laravel)**  
+  Role-based permissions, Interview Management stepper, AG Grid tables, export/filters, skeleton loaders & toasts.  
+  Repo: [`recruiter-ats`](https://github.com/bajrangsolge/recruiter-ats)
+
+- **Spendwise (MERN) – Expense Tracker**  
+  Reminders, charts, categories, auth, mobile-first.  
+  Repo: [`spendwise`](https://github.com/bajrangsolge/spendwise)
+
+- **Confluence RAG with FGAC**  
+  Extract → chunk → embed → **ACL-filtered retrieval**; Azure/AWS variants, Postgres/OpenSearch.  
+  Repo: [`confluence-fgac-rag`](https://github.com/bajrangsolge/confluence-fgac-rag)
+
+> Update the repo links/names as you push; then **pin** these 6 on your profile (Profile → Customize your pins).
+
+---
+
+## 🔧 Architecture Snapshot (AAOS)
 ```mermaid
 flowchart LR
-  CAN[(CAN Bus)] --> MCU[ECU / MCU]
-  MCU -->|USB Serial| ESP[ESP32]
-  ESP -->|Telemetry| ANDROID[Android Device]
-
-  subgraph ANDROID_SIDE[Android (AAOS)]
-    HAL[Vehicle HAL (AIDL)]
-    CS[CarService / Vehicle System Service]
-    CPM[CarPropertyManager]
-    APP[IVI / Cluster App (Kotlin)]
-    UI[Compose / Views]
+  subgraph Vehicle
+    CAN[CAN Bus] --> MCU[ECU/MCU]
   end
 
-  HAL --> CS --> CPM --> APP --> UI
+  USB[ESP32 USB Serial] --> HAL[Vehicle HAL (AIDL)]
+  HAL --> CS[CarService / Vehicle System Service]
+  CS --> CPM[CarPropertyManager]
+  CPM --> App[IVI/Cluster App (Kotlin)]
+  App --> UX[CarUxRestrictionsManager]
+  App --> UI[Compose/Views]
+
+  MCU -->|Telemetry| USB
