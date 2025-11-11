@@ -54,33 +54,5 @@
 
 ---
 
-## 🧩 Architecture Snapshot (AAOS)
 
-```mermaid
-flowchart LR
-  %% Vehicle side
-  subgraph VEH["Vehicle"]
-    CAN[(CAN Bus)] --> MCU[ECU/MCU]
-  end
-
-  %% Android side
-  subgraph AND["Android (AAOS)"]
-    HAL[Vehicle HAL (AIDL)]
-    CS[CarService / Vehicle System Service]
-    CPM[CarPropertyManager]
-    APP[IVI / Cluster App (Kotlin)]
-    UX[CarUxRestrictionsManager]
-    UI[Compose / Views]
-  end
-
-  USB[ESP32 USB Serial]
-
-  %% Links (one edge per line)
-  MCU -->|Telemetry| USB
-  USB --> HAL
-  HAL --> CS
-  CS --> CPM
-  CPM --> APP
-  APP --> UI
-  APP --> UX
 ```
