@@ -6,7 +6,7 @@
 <h1 align="center">Hi, I'm Bajrang Solge</h1>
 
 <p align="center">
-  <a href="mailto:bajrangsolge98@gmail.com"><img src="https://img.shields.io/badge/Email-bajrangsolge98%40gmail.com-black?logo=gmail" /></a>
+  <a href="mailto:bajrangsolge07@gmail.com"><img src="https://img.shields.io/badge/Email-bajrangsolge07gmail.com-black?logo=gmail" /></a>
   <a href="https://linkedin.com/in/bajrang-solge-811b2a212"><img src="https://img.shields.io/badge/LinkedIn-bajrang--solge-0A66C2?logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/bajrangsolge"><img src="https://img.shields.io/github/followers/bajrangsolge?label=Follow&style=social" /></a>
   <img src="https://komarev.com/ghpvc/?username=bajrangsolge&label=Profile%20views&color=0e75b6&style=flat" />
