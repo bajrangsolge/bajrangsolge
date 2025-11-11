@@ -1,0 +1,71 @@
+<!-- assets/aaos-architecture.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="360" viewBox="0 0 1024 360">
+  <style>
+    .box{fill:#ffffff;stroke:#1f2937;stroke-width:2;rx:10;ry:10}
+    .title{font:700 14px Inter,Segoe UI,Arial}
+    .text{font:600 13px Inter,Segoe UI,Arial}
+    .sub{font:500 12px Inter,Segoe UI,Arial; fill:#444}
+    .group{fill:#f8fafc;stroke:#e5e7eb;stroke-width:2;rx:12;ry:12}
+    .arrow{stroke:#1f2937;stroke-width:2;marker-end:url(#a)}
+  </style>
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1f2937"/>
+    </marker>
+  </defs>
+
+  <!-- Group frames -->
+  <rect x="24" y="24" width="420" height="312" class="group"/>
+  <text x="36" y="46" class="title">Vehicle</text>
+
+  <rect x="460" y="24" width="540" height="312" class="group"/>
+  <text x="472" y="46" class="title">Android (AAOS)</text>
+
+  <!-- Vehicle side -->
+  <rect x="60" y="90" width="160" height="56" class="box"/>
+  <text x="80" y="120" class="text">CAN Bus</text>
+  <text x="80" y="138" class="sub">Sensor/ECU network</text>
+
+  <rect x="250" y="90" width="160" height="56" class="box"/>
+  <text x="278" y="120" class="text">ECU / MCU</text>
+  <text x="278" y="138" class="sub">Gateway / Controller</text>
+
+  <!-- USB bridge -->
+  <rect x="250" y="180" width="160" height="56" class="box"/>
+  <text x="275" y="210" class="text">ESP32 USB Serial</text>
+
+  <!-- Android side -->
+  <rect x="500" y="90" width="180" height="56" class="box"/>
+  <text x="520" y="120" class="text">Vehicle HAL (AIDL)</text>
+
+  <rect x="710" y="90" width="180" height="56" class="box"/>
+  <text x="735" y="120" class="text">CarService / VSS</text>
+
+  <rect x="500" y="180" width="180" height="56" class="box"/>
+  <text x="520" y="210" class="text">CarPropertyManager</text>
+
+  <rect x="710" y="180" width="180" height="56" class="box"/>
+  <text x="738" y="210" class="text">IVI / Cluster App</text>
+  <text x="763" y="228" class="sub">(Kotlin)</text>
+
+  <rect x="710" y="270" width="180" height="56" class="box"/>
+  <text x="770" y="300" class="text">UI</text>
+  <text x="750" y="318" class="sub">Compose / Views</text>
+
+  <rect x="920" y="180" width="60" height="56" class="box"/>
+  <text x="935" y="210" class="text">UX</text>
+  <text x="926" y="228" class="sub">CarUx</text>
+
+  <!-- Arrows -->
+  <line x1="220" y1="118" x2="250" y2="118" class="arrow"/>
+  <line x1="330" y1="146" x2="330" y2="180" class="arrow"/>
+  <line x1="410" y1="208" x2="500" y2="208" class="arrow"/>
+  <line x1="680" y1="118" x2="710" y2="118" class="arrow"/>
+  <line x1="590" y1="146" x2="590" y2="180" class="arrow"/>
+  <line x1="680" y1="208" x2="710" y2="208" class="arrow"/>
+  <line x1="800" y1="236" x2="800" y2="270" class="arrow"/>
+  <line x1="890" y1="208" x2="920" y2="208" class="arrow"/>
+
+  <!-- CAN to MCU -->
+  <line x1="220" y1="118" x2="250" y2="118" class="arrow"/>
+</svg>
